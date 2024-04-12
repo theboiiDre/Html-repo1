@@ -1,0 +1,23 @@
+{
+    "data": [
+        {
+            "userId": "1",
+            "name": "Michael",
+            "email": "michaelamando11@gmail.com",
+
+            "designation": "Oracle Faculty"
+        },
+        {
+            "userId": "2",
+            "name": "Michael",
+            "email": "michaelamando11@gmail.com",
+            "designation": "Dotnet Faculty"
+        },
+         {
+            "userId": "3",
+            "name": "Michael",
+            "email": "michaelamando11@gmail.com",
+            "designation": "Java Faculty"
+        }
+    ]
+}

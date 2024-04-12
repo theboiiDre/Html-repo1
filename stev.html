@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RestFulService</title>
+    <script type="text/javascript" src="js/angularjs/1.6.9/angular.min.js"></script>
+    <script type="text/javascript" src="js/angularjs/1.6.9/angular-route.js"></script>
+    <script type="text/javascript" src="stev.js"></script>
+</head>
+<body ng-app="App" ng-controller="MainController">
+   "{{7*3}}"
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Designation</th>
+        </tr>
+        <tr ng-repeat="faculty in faculties">
+                     <td>{{faculty.userId}}</td>
+                     <td>{{faculty.name}}</td>
+                     <td>{{faculty.email}}</td>
+                     <td>{{faculty.designation}}</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
